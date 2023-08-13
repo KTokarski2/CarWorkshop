@@ -138,14 +138,14 @@
         }
       }
     },
-    "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/CarWorkshop.MVC.csproj": {
+    "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/CarWorkshop.MVC.csproj",
-        "projectName": "CarWorkshop.MVC",
-        "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/CarWorkshop.MVC.csproj",
+        "projectUniqueName": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj",
+        "projectName": "CarWorkshop.Infrastructure",
+        "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj",
         "packagesPath": "/home/fedora/.nuget/packages/",
-        "outputPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/obj/",
+        "outputPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fedora/.nuget/NuGet/NuGet.Config"
@@ -176,6 +176,88 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/CarWorkshop.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/CarWorkshop.MVC.csproj",
+        "projectName": "CarWorkshop.MVC",
+        "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/CarWorkshop.MVC.csproj",
+        "packagesPath": "/home/fedora/.nuget/packages/",
+        "outputPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fedora/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/CarWorkshop.Application.csproj": {
+                "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/CarWorkshop.Application.csproj"
+              },
+              "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj": {
+                "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.10, )"

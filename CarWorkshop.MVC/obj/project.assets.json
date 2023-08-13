@@ -1159,6 +1159,20 @@
         "runtime": {
           "bin/placeholder/CarWorkshop.Domain.dll": {}
         }
+      },
+      "CarWorkshop.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CarWorkshop.Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
+        },
+        "compile": {
+          "bin/placeholder/CarWorkshop.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarWorkshop.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -3489,11 +3503,19 @@
       "type": "project",
       "path": "../CarWorkshop.Domain/CarWorkshop.Domain.csproj",
       "msbuildProject": "../CarWorkshop.Domain/CarWorkshop.Domain.csproj"
+    },
+    "CarWorkshop.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj",
+      "msbuildProject": "../CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "CarWorkshop.Application >= 1.0.0",
+      "CarWorkshop.Infrastructure >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 7.0.10",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10"
     ]
@@ -3525,6 +3547,9 @@
           "projectReferences": {
             "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/CarWorkshop.Application.csproj": {
               "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/CarWorkshop.Application.csproj"
+            },
+            "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj": {
+              "projectPath": "/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Infrastructure/CarWorkshop.Infrastructure.csproj"
             }
           }
         }
@@ -3539,6 +3564,16 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.10, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.10, )"
