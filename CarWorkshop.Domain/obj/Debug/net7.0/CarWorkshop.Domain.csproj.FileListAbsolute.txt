@@ -1,0 +1,14 @@
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/bin/Debug/net7.0/CarWorkshop.Domain.deps.json
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/bin/Debug/net7.0/CarWorkshop.Domain.runtimeconfig.json
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/bin/Debug/net7.0/CarWorkshop.Domain.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/bin/Debug/net7.0/CarWorkshop.Domain.pdb
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.csproj.AssemblyReference.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.AssemblyInfoInputs.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.AssemblyInfo.cs
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.csproj.CoreCompileInputs.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/refint/CarWorkshop.Domain.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.pdb
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/CarWorkshop.Domain.genruntimeconfig.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Domain/obj/Debug/net7.0/ref/CarWorkshop.Domain.dll

@@ -1,0 +1,17 @@
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/bin/Debug/net7.0/CarWorkshop.Application.deps.json
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/bin/Debug/net7.0/CarWorkshop.Application.runtimeconfig.json
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/bin/Debug/net7.0/CarWorkshop.Application.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/bin/Debug/net7.0/CarWorkshop.Application.pdb
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/bin/Debug/net7.0/CarWorkshop.Domain.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/bin/Debug/net7.0/CarWorkshop.Domain.pdb
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.csproj.AssemblyReference.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.AssemblyInfoInputs.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.AssemblyInfo.cs
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.csproj.CoreCompileInputs.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.csproj.CopyComplete
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/refint/CarWorkshop.Application.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.pdb
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/CarWorkshop.Application.genruntimeconfig.cache
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.Application/obj/Debug/net7.0/ref/CarWorkshop.Application.dll
