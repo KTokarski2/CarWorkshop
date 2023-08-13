@@ -18,9 +18,38 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult About()
+    {
+        var model = new About()
+        {
+            Title = "Carworkshop application",
+            Description = "Some description",
+            Tags = new List<string>() { "#xd","#xdddd", "#super" }
+        };
+        return View(model);
+    }
+
     public IActionResult Privacy()
     {
-        return View();
+        var persons = new List<Person>()
+        {
+            new Person()
+            {
+                FirstName = "A",
+                LastName = "AAAAAAAAAAA"
+            },
+            new Person()
+            {
+                FirstName = "D",
+                LastName = "DDDDDDDDDDDD"
+            },
+            new Person()
+            {
+                FirstName = "Robert",
+                LastName = "CCCCCCCCCC"
+            }
+        };
+        return View(persons);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

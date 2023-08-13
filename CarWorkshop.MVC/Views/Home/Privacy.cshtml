@@ -1,6 +1,43 @@
-﻿@{
+﻿@using System.Globalization
+@using System.Runtime.InteropServices.JavaScript
+@model List<Person>
+@{
     ViewData["Title"] = "Privacy Policy";
+    var now = DateTime.Now.ToString("dd/MM/yyyy");
+    DayOfWeek wk = DateTime.Today.DayOfWeek;
+    var email = "Support@contoso.com";
+    
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+<p>Today's date: @now</p>
+
+@if (wk == DayOfWeek.Saturday || wk == DayOfWeek.Sunday)
+{
+    <p>It's weekend!</p>
+}
+else
+{
+    <p>It's not weekend!</p>
+}
+
+@switch (wk)
+{
+    case DayOfWeek.Saturday:
+        <p>It's saturday</p>
+        break;;
+    default:
+        <p>It's not saturday</p>
+        break;
+}
+
+<a href="mailto:@email">@email</a>
+
+@foreach (var person in Model)
+{
+    <p>@person.FirstName  @person.LastName</p>
+}
+
+<p>Test</p>
