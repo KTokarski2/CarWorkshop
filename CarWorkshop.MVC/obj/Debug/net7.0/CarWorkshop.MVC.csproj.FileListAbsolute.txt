@@ -81,3 +81,7 @@
 /home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/obj/Debug/net7.0/CarWorkshop.MVC.csproj.CopyComplete
 /home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/AutoMapper.dll
 /home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/FluentValidation.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/obj/Debug/net7.0/CarWorkshop.MVC.MvcApplicationPartsAssemblyInfo.cs
