@@ -79,3 +79,5 @@
 /home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/CarWorkshop.Infrastructure.pdb
 /home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/CarWorkshop.Domain.pdb
 /home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/obj/Debug/net7.0/CarWorkshop.MVC.csproj.CopyComplete
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/AutoMapper.dll
+/home/fedora/RiderProjects/CarWorkshop/CarWorkshop.MVC/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
