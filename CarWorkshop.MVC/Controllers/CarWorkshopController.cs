@@ -14,6 +14,12 @@ public class CarWorkshopController : Controller
         _carWorkshopService = carWorkshopService;
     }
 
+    public async Task<IActionResult> Index()
+    {
+        var carWorkshop = await _carWorkshopService.GetAll();
+        return View(carWorkshop);
+    }
+
     [HttpGet]
     public ActionResult Create()
     {
